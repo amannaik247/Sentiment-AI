@@ -37,9 +37,9 @@ news_analyzer = Agent(
     verbose=True,
     memory=True,
     backstory=(
-        "With a flair for analyzing complex topics, you craft"
-        "a score between -10 to +10, with -10 being negative net impact"
-        "and +10 being positive impact."
+        "With a flair for analyzing complex topics, you analyze the current"
+        "state of the art in the industry and give accurate sentimental analysis"
+        "on the topic."
     ),
     tools=[tool],
     llm=llm,

@@ -19,22 +19,20 @@ research_task = Task(
 write_task = Task(
   description=(
     "Sentiment Scoring:"
-    "Analyze the sentiment of the news article."
+    "Analyze the sentiment of the top articles."
     "Provide a sentiment score between -10 and +10 based on how negative or positive the article is."
       "- A score closer to -10 indicates a more negative article."
       " - A score closer to +10 indicates a more positive article."
       "- A score of 0 indicates a neutral article."
       
-     "Net Impact Analysis"
+      "Net Impact Analysis"
       "Assess the overall impact of the trends or developments described in the article on the industry or the relevant field."
       "Mention whether the impact seems positive, negative, or neutral."
-
-  "Summary:"
-   "- Write a brief, engaging summary in bullet points of the main points discussed in the article."
-   "- Focus on highlighting key trends, developments, and any important information that impacts the industry."
-   "- The summary should be easy to understand and concise."
+    
+    "Write a small summary in short bullet points about the article"
+    
   ),
-  expected_output='A 4 paragraph article on {topic} advancements formatted as markdown.',
+  expected_output='Short summary of top {noofarticles} articles on the {topic} and then the sentimental analysis score of each article',
   tools=[tool],
   agent=news_analyzer,
   async_execution=False,
