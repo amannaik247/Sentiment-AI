@@ -10,6 +10,5 @@ crew=Crew(
 )
 
 ## starting the task execution process wiht enhanced feedback
-
-result=crew.kickoff(inputs={'topic':'Onion production in India', 'noofarticles':'noofarticles'})
+result=crew.kickoff(inputs={'topic':'Polycab India', 'noofarticles':'4'})
 print(result)
