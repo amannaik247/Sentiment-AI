@@ -1,10 +1,10 @@
 from crewai import Crew,Process
 from tasks import research_task, write_task
-from agents import news_researcher,news_writer
+from agents import news_researcher,news_analyzer
 
 ## Forming the tech focused crew with some enhanced configuration
 crew=Crew(
-    agents=[news_researcher,news_writer],
+    agents=[news_researcher,news_analyzer],
     tasks=[research_task,write_task],
     process=Process.sequential
 )

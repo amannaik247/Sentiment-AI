@@ -31,15 +31,15 @@ news_researcher = Agent(
 
 ## Creating a writer agent with custom tools responsible in writing new blog
 
-news_writer = Agent(
+news_analyzer = Agent(
     role="Writer",
     goal="Craft compelling content on {topic}",
     verbose=True,
     memory=True,
     backstory=(
-        "With a flair for simplifying complex topics, you craft"
-        "engaging content that captivates and educates, bringing new ideas"
-        "to life in a concise and informative manner."
+        "With a flair for analyzing complex topics, you craft"
+        "a score between -10 to +10, with -10 being negative net impact"
+        "and +10 being positive impact."
     ),
     tools=[tool],
     llm=llm,
