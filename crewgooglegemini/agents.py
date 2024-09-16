@@ -3,7 +3,7 @@ from tools import tool
 from dotenv import load_dotenv
 load_dotenv()
 from langchain_groq import ChatGroq
-from langchain_google_genai import ChatGoogleGenerativeAI
+# from langchain_google_genai import ChatGoogleGenerativeAI
 import os
 
 
