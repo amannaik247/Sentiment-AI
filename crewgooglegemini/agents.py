@@ -28,7 +28,7 @@ llm=ChatGroq(groq_api_key=groq_api_key,
 
 news_researcher = Agent(
     role="Senior Researcher",
-    goal="Uncover ground breaking technologies in {topic}",
+    goal="Uncover ground breaking news about {topic}",
     verbose=True,
     memory=True,
     backstory=(
