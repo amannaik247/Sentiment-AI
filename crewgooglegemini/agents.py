@@ -21,7 +21,7 @@ groq_api_key=os.environ["GROQ_API_KEY"]
 # call groq models
 llm=ChatGroq(groq_api_key=groq_api_key,
              temperature =0.5,
-             model_name="llama-3.1-70b-versatile")
+             model_name="groq/llama-3.1-70b-versatile")
 
 
 # Creating a senior researcher agent with memory and verbose mode
