@@ -1,11 +1,12 @@
-The top 4 articles on Polycab India are:
+* **Cable maker Polycab India posts Q4 profit rise on healthy demand**: The article reports on Polycab India's Q4 profit rise, driven by strong demand for its wires and cables. The article has a positive sentiment, highlighting the company's growth and profit increase. **Sentiment Score: 8**
+* **Broker's call: Polycab India Buy**: The article discusses the broker's call to buy Polycab India, citing the company's growth potential and strong financial performance. The article has a positive sentiment, recommending investors to buy the stock. **Sentiment Score: 9**
+* **Polycab India Powers Up: Record Profit And Revenue Growth**: The article reports on Polycab India's record profit and revenue growth, driven by strong demand for its wires and cables. The article has a positive sentiment, highlighting the company's growth and profit increase. **Sentiment Score: 8**
+* **Multibagger Stock: Polycab India jumped over 270% in 3 years**: The article discusses Polycab India's stock performance, highlighting its growth and potential for further gains. The article has a positive sentiment, recommending investors to consider buying the stock. **Sentiment Score: 8**
 
-* Polycab India's stock price has reached a 52-week high on May 6, 2024, reflecting the company's consistent performance in the cable industry. (Sentiment score: 8)
+Overall Sentiment Score: 8.25
 
-* Polycab India reported a 28.5% jump in its fourth-quarter profit on Friday, driven by strong demand for its wires and cables, its largest segment. (Sentiment score: 9)
-
-* Polycab India shares are trading at their record high, with the fast moving electric goods (FMEG) stock being overbought on charts, indicates its RSI at 74.6. (Sentiment score: 7)
-
-* Polycab India, a leading cable industry player, has seen a 3.08% increase in its stock price on May 15, 2024, outperforming the sector by 2.79%. (Sentiment score: 8)
-
-The sentiment scores are based on the language used in the articles, with positive words and phrases contributing to a higher score. The scores are subjective and may vary depending on the interpretation of the language used.
+Sources:
+* https://www.reuters.com/world/india/cable-maker-polycab-india-posts-q4-profit-rise-healthy-demand-2024-05-10/
+* https://www.thehindubusinessline.com/markets/brokers-call-polycab-india-buy/article68417562.ece
+* https://finimize.com/content/polycab-india-powers-up-record-profit-and-revenue-growth
+* https://www.livemint.com/market/stock-market-news/multibagger-stock-polycab-india-jumped-over-270-in-3-years-rallied-725-in-5-years-should-you-invest-11713237910328.html

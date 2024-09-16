@@ -11,7 +11,7 @@ research_task = Task(
     "Your final report should clearly articulate the key points,"
     "its market opportunities, and potential risks."
   ),
-  expected_output='A comprehensive 3 paragraphs long report on the latest AI trends',
+  expected_output='A comprehensive analysis of top articles in 3 paragraphs',
   tools=[tool],
   agent=news_researcher
 )
@@ -27,7 +27,8 @@ write_task = Task(
       "- A score of 0 indicates a neutral article."
     
   ),
-  expected_output='Brief summary explaining each of the top {noofarticles} articles on the {topic} in bullet points and then the sentimental analysis score of each article',
+  expected_output="Brief summary explaining each of the top {noofarticles} articles on the {topic} in bullet points and then the sentimental analysis score of each article."
+                  "The format should be Summary of each, then its score,then its overall score then at the end the sources of the articles",
   tools=[tool],
   agent=news_analyzer,
   async_execution=False,

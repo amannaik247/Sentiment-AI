@@ -2,6 +2,6 @@ crewai
 langchain_google_genai
 load_dotenv
 crewai_tools
-fastapi[standard]
 groq
 langchain-groq
+streamlit
