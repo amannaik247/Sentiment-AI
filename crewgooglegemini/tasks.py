@@ -6,7 +6,6 @@ from agents import news_researcher,news_analyzer
 research_task = Task(
   description=(
     "Identify the next big trend in {topic}."
-    "Only research top {noofarticles} articles of web page"
     "Focus on identifying pros and cons and the overall narrative."
     "Your final report should clearly articulate the key points,"
     "its market opportunities, and potential risks."
