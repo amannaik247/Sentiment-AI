@@ -28,7 +28,7 @@ write_task = Task(
     
   ),
   expected_output="Brief summary explaining each of the top {noofarticles} articles on the {topic} in bullet points and then the sentimental analysis score of each article."
-                  "The format should be Summary of each, then its score,then its overall score then at the end the sources of the articles",
+                  "The format should be Summary of each, then its score,then overall Sentiment score of all articles, then at the end the sources of the articles",
   tools=[tool],
   agent=news_analyzer,
   async_execution=False,
