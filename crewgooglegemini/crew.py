@@ -9,7 +9,7 @@ st.title("Sentiment AI")
 # Get user input for topic and number of articles
 topic = st.text_input("Enter the topic", "Polycab India")
 noofarticles = st.number_input("Enter the number of articles", min_value=4, step=1, max_value=10)
-if st.button("Kickoff Process"):
+if st.button("Start Web Analysis"):
     # Forming the tech-focused crew with enhanced configuration
     crew = Crew(
         agents=[news_researcher, news_analyzer],
