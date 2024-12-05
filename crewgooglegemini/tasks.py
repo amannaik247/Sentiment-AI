@@ -25,7 +25,7 @@ write_task = Task(
         " - A score closer to +10 indicates a more positive article."
         "- A score of 0 indicates a neutral article."
     ),
-    expected_output="Brief summary explaining each of the top articles on the given topic in bullet points and then the sentimental analysis score of each article."
+    expected_output="Brief summary explaining each of the top {noofarticles} articles on the {topic} in bullet points and then the sentimental analysis score of each article."
     "The format should be Summary of each, then its score on new line, then overall Sentiment score of all articles, then at the end the source links of the articles",
     tools=[tool],
     agent=news_analyzer,
