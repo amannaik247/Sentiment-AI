@@ -1,8 +1,10 @@
 from crewai import Agent
 from tools import tool
 from dotenv import load_dotenv
+
 load_dotenv()
 from langchain_groq import ChatGroq
+
 # from langchain_google_genai import ChatGoogleGenerativeAI
 import os
 
@@ -17,11 +19,13 @@ llm = ChatGoogleGenerativeAI(model="gemini-1.5-flash",
 """
 
 ## load the Groq API key
-groq_api_key=os.environ["GROQ_API_KEY"]
+groq_api_key = os.environ["GROQ_API_KEY"]
 # call groq models
-llm=ChatGroq(groq_api_key=groq_api_key,
-             temperature =0.5,
-             model_name="groq/llama-3.1-70b-versatile")
+llm = ChatGroq(
+    groq_api_key=groq_api_key,
+    temperature=0.1,
+    model_name="groq/llama-3.1-70b-versatile",
+)
 
 
 # Creating a senior researcher agent with memory and verbose mode
@@ -38,8 +42,7 @@ news_researcher = Agent(
     ),
     tools=[tool],
     llm=llm,
-    allow_delegation=True
-    
+    allow_delegation=True,
 )
 
 ## Creating a writer agent with custom tools responsible in writing new blog
@@ -56,6 +59,5 @@ news_analyzer = Agent(
     ),
     tools=[tool],
     llm=llm,
-    allow_delegation=False
-
+    allow_delegation=False,
 )
