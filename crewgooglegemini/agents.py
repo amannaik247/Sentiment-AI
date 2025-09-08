@@ -24,7 +24,7 @@ groq_api_key = os.environ["GROQ_API_KEY"]
 llm = ChatGroq(
     groq_api_key=groq_api_key,
     temperature=0.1,
-    model_name="groq/llama-3.2-90b-vision-preview",
+    model_name="llama-3.1-8b-instant",
 )
 
 
