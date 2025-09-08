@@ -24,7 +24,7 @@ groq_api_key = os.environ["GROQ_API_KEY"]
 llm = ChatGroq(
     groq_api_key=groq_api_key,
     temperature=0.1,
-    model_name="groq/llama-3.3-70b-versatile",
+    model_name="groq/openai/gpt-oss-120b",
 )
 
 
